@@ -1,0 +1,9 @@
+cr_top_head  // акшен сверху хэдера
+cr_top_panel_content // содержимое верхней панели
+cr_header_main //хэдер
+cr_header_left_panel // верхняя панель хэдере левая часть
+cr_header_right_panel // верхняя панель хэдере правая часть
+cr_widgets_footer //виджеты футера
+cr_copyright_footer //облачть копирайта
+cr_after_post //после поста
+cr_main_slider //главный слайдер
