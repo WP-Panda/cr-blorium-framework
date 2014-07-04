@@ -153,3 +153,6 @@ if( !function_exists( 'cr_dynamic_style' ) ) {
 }
 
 add_action('wp_head','cr_dynamic_style', 20 );
+
+// tax meta box
+require_once '/inc/tax-meta-box.php';

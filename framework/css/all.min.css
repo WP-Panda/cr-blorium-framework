@@ -1208,9 +1208,9 @@ ul#cr_main_menu ul.sub-menu span{
 ul#cr_main_menu ul.sub-menu li:hover>a,ul#cr_main_menu ul.sub-menu li a{
   background-color:#000000;border-style:solid;border-color:#383838;color:#9484EB;text-decoration:none;}
 ul#cr_main_menu li>a{
-  background-color:#000000;border-width:2px 0 0 0;border-style:solid;border-color:transparent transparent transparent transparent;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;-moz-transition:all 0.5s;-webkit-transition:all 0.5s;-o-transition:all 0.5s;}
+  /*background-color:#000000;*/border-width:2px 0 0 0;border-style:solid;border-color:transparent transparent transparent transparent;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;-moz-transition:all 0.5s;-webkit-transition:all 0.5s;-o-transition:all 0.5s;}
 ul#cr_main_menu li:hover>a,ul#cr_main_menu li a{
-  background-color:#000000;border-style:solid;border-color:#9484EB transparent transparent transparent;}
+  /*background-color:#000000*/;border-style:solid;border-color:#9484EB transparent transparent transparent;}
 
  /*мобильное*/ 
 
@@ -1328,3 +1328,5 @@ ul#cr_main_menu li:hover>a,ul#cr_main_menu li a{
     display:block;
   }
 }
+
+#header-right-panel{text-align: right;}

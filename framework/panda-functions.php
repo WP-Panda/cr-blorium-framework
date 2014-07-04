@@ -11,7 +11,7 @@
 
 
 /* get the post thumbnail url */
-if( !function_exists( get_cr_post_thumb_url ) ) :
+if( !function_exists( 'get_cr_post_thumb_url' ) ) :
 	function get_cr_post_thumb_url($id) {
 		global $post;
 		$thumb_id = get_post_thumbnail_id($id);
@@ -22,7 +22,7 @@ if( !function_exists( get_cr_post_thumb_url ) ) :
 endif;
 
 /* get the bfi crop img */
-if( !function_exists( get_cr_bfi_thumb_url ) ) :
+if( !function_exists( 'get_cr_bfi_thumb_url' ) ) :
 	function get_cr_bfi_thumb_url( $id,$w,$h,$crop ) {
 		$thumb = get_cr_post_thumb_url( $id );
 		$params = array( 'width' => $w, 'height' => $h, 'crop'=>$crop );

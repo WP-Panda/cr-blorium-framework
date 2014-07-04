@@ -713,6 +713,7 @@ a:active {
 	display: block;
 	float: left;
 	width: 100%;
+	text-align: right;
 }
 .main-navigation ul {
 	list-style: none;

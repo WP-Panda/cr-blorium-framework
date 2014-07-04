@@ -12,6 +12,7 @@
 	require_once 'soundcloud-shortcode.php'; // шорткод саундклауд
 	require_once 'elements/header-template.php'; //элементы хэдера
 	require_once 'elements/main-slider.php'; //шаблоны слайдеров
+	require_once 'classes/tax-meta-box.php';
 
     /**
 	 * Enqueue scripts

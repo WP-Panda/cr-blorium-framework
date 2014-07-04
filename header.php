@@ -20,7 +20,7 @@
 <body <?php body_class(); ?>>
 <?php  do_action( 'cr_top_head' ); ?>
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'blorium2' ); ?></a>
+	<!--a class="skip-link screen-reader-text" href="#content"><?php //_e( 'Skip to content', 'blorium2' ); ?></a-->
 <? //global $smof_data; print_r($smof_data) ;?>
 	<?php do_action( 'cr_header_main'); ?>
 	<?php do_action( 'cr_main_slider' ); ?>
